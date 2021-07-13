@@ -1,0 +1,198 @@
+/*-------------------------
+     GOOGLE FONTS  
+------------------------------*/
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/*---------------------------------------- 
+             TOP SECTION CSS  
+-----------------------------------------*/
+
+/*-----------------------  
+         HEADER  
+-------------------------*/
+.rectangle{
+    background-color: #2D25A0;
+    width: 1500px;
+    height: 677px;
+    left: 0px;
+    top: 0px;
+}
+.top-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 102px;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+}
+.banner-text{
+    width: 485px;
+    height: 230px;
+    left: 150px;
+    top: 200px;
+    color: white;
+    margin-left: 156px;
+    margin-top: 200px;
+    font-size: 64px;
+    font-weight: bold;
+}
+.button{
+    color: white;
+    text-decoration: none;
+    margin-left: 156px;
+    margin-top: 27px;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    width: 101px;
+    
+}
+.button:hover{
+    background-color: teal;
+    transform: scale(1.5);
+    transition: 1s ease ;
+}
+.arrow{
+    margin-left: 266px;
+    margin-top: -16px;
+}
+.banner-picture{
+    width: 556px;
+    height: 438px;
+    margin-top: 150px;
+    margin-right: 140px;
+    margin-bottom: 86px;
+}
+
+/*---------------------------------------- 
+           END OF TOP SECTION CSS  
+-----------------------------------------*/
+
+/*-------------------------------------------------------------- 
+                    MAIN CONTAINER CSS  
+---------------------------------------------------------------*/
+.container{
+    margin-bottom: 220px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 120px;
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+    
+    
+}
+.player{
+    width: 330px;
+    height: 470px;
+    margin-top: 70px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    
+    
+    
+}
+
+.thumbnail{
+    width: 300px;
+    height: 256px;
+    margin-top: 15px;
+}
+.player-name{
+    width: 300px;
+    top: 0px;
+    color:  #18191F;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 16px;
+}
+.player-info{
+    font-size: 16px;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 13px;
+    
+}
+
+
+/*------------------------------------------------------------------- 
+                    BOTTOM BANNER CSS 
+--------------------------------------------------------------------- */
+.bottom{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 60px;
+}
+.bottom-page{
+    margin-left: 130px;
+}
+
+.bottom-heading{
+    width: 460px;
+    height: 120px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.bottom-info{
+    width: 400px;
+    height: 110px;
+    margin-top: 8px;
+}
+.button-bottom{
+    color: white;
+    text-decoration: none;
+    margin-left: 0px;
+    margin-top: 27px;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    width: 101px;
+}
+.button-bottom:hover{
+    background-color: rgb(9, 145, 81);
+    transform: scale(1.5);
+    transition: 1s ease ;
+}
+.bottom-image{
+    width: 560px;
+    height: 420px;
+}
+
+/*------------------------------------------- 
+               FOOTER CSS 
+--------------------------------------------- */
+.container-footer{
+    margin-bottom: 50px;
+}
+
+.footer-logo{
+    width: 480px;
+    height: 110px;
+    margin-left: 490px;
+    margin-top: 150px;
+}
+.icons{
+    margin-left: 675px;
+    margin-top: 20px;
+}
+.icon{
+   width: 32px;
+   height: 32px;
+}
+.copyright-section{
+    width: 230px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 635px;
+    margin-top: 30px;
+}
+
+
+
