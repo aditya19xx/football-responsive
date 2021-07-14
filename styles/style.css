@@ -194,5 +194,59 @@ body{
     margin-top: 30px;
 }
 
+/*---------------------------------------------------------------------- 
+                            MEDIA QUERY 
+------------------------------------------------------------------------ */
+
+/* ---------------------------------------------------------------------
+                    FOR MOBILE DEVICE 
+---------------------------------------------------------------------- */
+
+@media only screen and (max-width:688px) {
+
+      .rectangle{
+       width: 100vh;
+       height: 160vh;
+       /* left: 0px; */
+       /* margin-left: 0px; */
+       margin: -8px -8px;
+       
+       
+    }  
+
+     .top-section{
+        
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        
+    } 
+    .banner-image{
+        margin-left: 0px;
+        width: 329px;
+    }
+    
+    .players {
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 200px;
+    }
+   .bottom{
+       grid-template-columns: repeat(1, 1fr);
+       grid-row-gap: 50px;
+   }
+   .bottom-banner{
+       margin-left: 50px;
+   }
+   .footer-logo{
+       margin-left: 80px;
+   }
+   .icons{
+       margin-left: 280px;
+   }
+   .copyright-section{
+       margin-left: 240px;
+   }
+
+}
+
 
 
