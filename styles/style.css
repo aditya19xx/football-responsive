@@ -276,6 +276,7 @@ body{
     }
     .players{
         grid-template-columns: repeat(2, 1fr);
+        margin-left: 0px;
     }
     .bottom{
         grid-template-columns: repeat(1, 1fr);
@@ -288,7 +289,7 @@ body{
     }
     
     .bottom-banner{
-        margin-left: 170px;
+        margin-left: 100px;
     }
     .footer-logo{
         margin-left: 200px;
