@@ -248,5 +248,58 @@ body{
 
 }
 
+/*----------------------------------------------------------- 
+                    TABLET DEVICES 
+------------------------------------------------------------- */
+
+@media only screen and (min-width:689px) and (max-width:991px) {
+    .rectangle{
+        width: 100vh;
+        height: 125vh;
+        /* left: 0px; */
+        /* margin-left: 0px; */
+        margin: -8px -8px;
+        }
+
+    .top-section{
+        width: 200px;
+        height: 400px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .banner{
+        margin-left: 60px;
+    }
+    .banner-image{
+        margin-left: 100px;
+    }
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .bottom{
+        grid-template-columns: repeat(1, 1fr);
+        
+        grid-row-gap: 50px;
+        
+    }
+    .bottom-page{
+        margin-left: 170px;
+    }
+    
+    .bottom-banner{
+        margin-left: 170px;
+    }
+    .footer-logo{
+        margin-left: 200px;
+    }
+    .icons{
+        margin-left: 370px;
+    }
+    .copyright-section{
+        margin-left: 330px;
+    }
+
+   
+}
+
 
 
