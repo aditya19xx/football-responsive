@@ -180,7 +180,7 @@ body{
 }
 .news-title{
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     margin-top: 100px;
 }
  .news{
@@ -296,7 +296,7 @@ body{
                     TABLET DEVICES 
 ------------------------------------------------------------- */
 
-@media only screen and (min-width:689px) and (max-width:991px) {
+@media only screen and (min-width:600px) and (max-width:969px) {
     .rectangle{
         width: 100vh;
        height: 160vh;
@@ -333,6 +333,11 @@ body{
     .bottom-banner{
         margin-left: 100px;
     }
+    .news-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        }
+
     .footer-logo{
         margin-left: 200px;
     }
